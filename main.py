@@ -1,11 +1,8 @@
 import streamlit as st
-from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoader
 from datetime import date
 from streamlit.components.v1 import iframe
-import os
 import openai
 from annotated_text import annotated_text
-import pyperclip
 
 openai.api_key = "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"
 
