@@ -3,7 +3,7 @@ from datetime import date
 from streamlit.components.v1 import iframe
 import openai
 
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 
 st.set_page_config(layout="centered",
                    page_title="GPT 3 Academy")
